@@ -3,10 +3,9 @@ title:  "GitHub Blog 첫번째 포스팅"
 excerpt: "GitHub Blog 서비스인 github.io 블로그 시작."
 
 categories:
-  - Blog3
+  - Blog
 tags:
-  - Blog21
-last_modified_at: 2019-04-13T08:06:00-05:00  
+  - test
 ---  
 
 #처음 시작하면서
@@ -40,7 +39,7 @@ Editor 에서 보는 것처럼 보여주는 PlugIn등을 사용하면
 ```
 
 ```javascript
-var test = 'Test Jave Script Format'
+var test = 'Test Java Script Format'
 console.log(test)
 ```
 
