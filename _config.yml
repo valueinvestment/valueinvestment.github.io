@@ -19,12 +19,12 @@ locale: "en-US"
 title: "Make it fun!!!"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "춤추는 개발자"
-description: "쉬운 전달을 목표로 코딩합니다"
+name: "Ethan Choi"
+description: "쉬운 전달을 목표로 개발합니다"
 url: "https://valueinvestment.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser: "/assets/images/my-photo.jpg"
+teaser: "/assets/images/cat.jpg"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -81,15 +81,12 @@ analytics:
 
 # Site Author
 author:
-  name: "춤추는 개발자"
-  avatar: "/assets/images/my-photo.jpg"
-  bio: "**쉬운** 전달을 목표로 합니다."
-  location: "Seoul"
-  email:
+  name: "Ethan Choi"
+  avatar: "/assets/images/20210609.jpg"
+  bio: "**쉬운** 전달을 목표로 코딩합니다."
+  location: "Seoul Gangdong"
+  email: "csh2351@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:wildboy531@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -104,7 +101,7 @@ author:
       url: "https://github.com/valueinvestment"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/sh._.cs"
 
 # Site Footer
 footer:

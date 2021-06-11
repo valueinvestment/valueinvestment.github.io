@@ -4,7 +4,6 @@ excerpt: "GitHub github.io 블로그 계획."
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/bio-photo-keyboard-teaser.jpg
 
 categories:
   - Blog

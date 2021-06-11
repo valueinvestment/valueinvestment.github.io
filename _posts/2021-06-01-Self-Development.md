@@ -24,10 +24,10 @@ tags:
 > 때로는 이러한 안락함에 너무 익숙해진 나머지, 하고 싶은 일이 있어도 포기하게 된다. 
 > 실패에 대한 두려움 때문에 자신의 한계에 도전하지 못하고 제자리를 맴돌기만 한다.
   
- > 하지만 우리가 성장하기 위해서는 위험과 불편을 감수하고 안전지대를 벗어나도록 노력해야 한다. 
->변화를 갈망하고, 스스로를 밀어붙여서 계획한 일들을 실행에 옮겨야 한다.
+> 하지만 우리가 성장하기 위해서는 위험과 불편을 감수하고 안전지대를 벗어나도록 노력해야 한다. 
+> 변화를 갈망하고, 스스로를 밀어붙여서 계획한 일들을 실행에 옮겨야 한다.
   
- > 우리가 사는 세상은 멋지고 놀라운 일들로 가득하다. 
+> 우리가 사는 세상은 멋지고 놀라운 일들로 가득하다. 
 > 우리 앞에 놓인 도전들에 두려움 없이 맞설 때 삶은 우리에게 수 많은 기회를 제공한다. 
 > 그제야 비로소 진정한 행복을 누릴 수 있다고 믿는다.
 
@@ -50,3 +50,15 @@ long for change | 변화를 갈망하다.
 put one's plans into action | 계획을 실행으로 옮기다.
 stand up to | ~에 맞서다.
 present someone with an opportunity | ~에게 기회를 제공하다.
+be eager for | ~를 갈망하다.
+
+### Questions
+
+1. Have you had a experience testing your limits?  
+   Tell about your story, Anything is good like hiking the mountain!
+
+2. Is there bucket list that you are eager for?  
+   Let's introduce it and tell us why you want to do
+
+3. Going to english study could be said breaking out of our comfort zones!  
+   Let's talk about topics for the next challenge! 
