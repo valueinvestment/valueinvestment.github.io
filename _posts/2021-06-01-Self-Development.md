@@ -2,6 +2,11 @@
 title:  "2021.6.1 EBS radio show _ 입트영 "
 excerpt: "영어 회화 공부를"
 
+header:  
+  overlay_image: https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
+  overlay_filter: 0.5 # 투명도
+
+
 categories:
   - English Conversation
   
