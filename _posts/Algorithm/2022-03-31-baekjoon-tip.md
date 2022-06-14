@@ -37,7 +37,7 @@ const input = (() => {  //input()을 호출할 때마다 한줄씩 읽어온다.
 
 let result = 0;
 
-for(let i = 0; i <10; i++ ){
+for(let i = 0; i < 10; i++ ){
     result += solution(input()); // 10번 반복하여 input()을 불러왔으므로 예제 입력 10줄이 모두 입력되었다
 }
 console.log(result); // 결과 값 출력
