@@ -66,3 +66,8 @@ console.log(result); // 결과 값 출력
 > <a href="https://valueinvestment.github.io/%EB%B0%B1%EC%A4%80%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/boj1620pocketmon/" target="_blank">이전 문제풀이 참조 </a>
 
 > <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map" target="_blank">Map 문서</a>
+
+
+
+### 문제 링크 ### 
+<a href="https://www.acmicpc.net/problem/1302" target="_blank">https://www.acmicpc.net/problem/1302 </a>
