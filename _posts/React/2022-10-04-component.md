@@ -50,6 +50,7 @@ export default NewComponent;
 ## props
 - props는 불러오는 상위 컴포넌트에서 넣어 줄 수 있다.
 - 받아오는 컴포넌트는 인자에 props를 넣고 {props.name}을 활용하여 쓸 수 있다.
+
 ```jsx
 //선언
 import MyComponent from './MyComponent'

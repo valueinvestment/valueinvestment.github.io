@@ -1,5 +1,5 @@
 ---
-title:  "[React를 다루는 기술] 장 - "
+title:  "[React를 다루는 기술] 4장 - 이벤트 핸들링 "
 excerpt: ""
 toc: true
 toc_sticky: true
@@ -10,41 +10,73 @@ tags:
   - [React, JS, Java Script, Study]
 ---  
 
-## React의 이해 ##
-1. 오직 V(view)만 신경 쓰는 라이브러리.
-  - 어떤 데이터가 변할 때마다 어떤 변화를 줄지 고민하는 것이 아니라 그냥 기존 뷰를날려버리고 처음부터 새로 렌더링하는 방식
+##  이벤트 핸들링
+- 이벤트 : 사용자가 웹 브라우저에서 DOM 요소들과 상호 작용 하는 것
+  - 마우스 커서 올리기, 클릭하기, Form 요소에서 값 바뀌면 onChange 이벤트..
 
-2. 컴포넌트
-- 리액트 프로젝트에서 특정 부분이 어떻게 생길지 정하는 선언체.
-- 재사용이 가능한 API로 수많은 기능들 내장.
-- 컴포넌트 하나에 해당 컴포넌트의 생김새와 작동 방식 정의 .
+- 리액트의 이벤트 시스템
+  1. 주의 사항
+  - 이벤트 이름은 카멜 표기법 ex) onclick => onClick, onkeyup => onKeyUp
+  - 이벤트에 코드가 아닌 함수 형태의 값(객체)을 전달한다.
+  - 함수 전달에 좋은 화살표 함수 사용
+  - 렌더링 부분 외부에 미리 만들어서 전달 가능
+  - DOM 요소에만 이벤트를 설정할 수 있다. (html 태그 같은 DOM요소에만 설정 가능)
+  - 컴포넌트에는 설정이 안된다.
 
-3. 초기 렌더링
-- 어떤 라이브러리, 프레임워크간에 처음 어떻게 보일지를 정하는 작업.
-- render( ) 함수
-  - 컴포넌트가 어떻게 생겼는지 정의.
-  - HTML이 아닌 뷰가 어떻게 생겼고 작동하는지에 대한 객체 반환.
-  - 컴포넌트 내부에 컴포넌트 들어갈 수 있다. 이때 내부 컴포넌트 부터 재귀적으로 렌더링.
-  - 이 정보를 가지고 HTML 마크업을 하고 실제 페이지 DOM 안에 주입.
+  2. 자주 사용하는 이벤트
+  - 참고(https://reactjs.org/docs/events.html)
 
-4. 조화 과정
-- 새로운 요소로 갈아 끼우는 과정. render( ) 함수가 진행.
-- 값이 변했을 때 이전에 만든 컴포넌트와 정보를 비교 후 최소한의 연산으로 DOM 트리를 업데이트.
 
-## 리액트 특징 ( Virtual DOM 사용 ) ##
+## 함수형 컴포넌트에서 이벤트 예제
 
-1. DOM 이란? (Document Object Model)
-- 객체로 문서 구조를 표현하는 방법
-- 트리 형태로 특정 노드를 찾거나 수정, 제거, 삽입할 수 있다.
-- 단점은 동적 UI에 최적화되어 있지 않아서 최소한으로 조작해야 성능 이슈를 막을 수 있다.
+- e 객체 : SyntheticEvent. 웹 브라우저의 네이티브 이벤트랄 감싸는 개체. 이벤트가 끝나면 초기화
 
-2. Virtual DOM - 업데이트 처리 간결성
-- 실제 DOM이 아닌 추상화한 자바스크립트 객체. (가벼운 사본 느낌)
+```jsx
+const EventPractice = () => {
+  const [message, setMessage] = useState(''); //  기본 형태
+  const [form, setForm] = useState({
+    userMessage: '',
+    username: '',
+  }) //  useState()의 두번 째 인자 상태 설정 함수를 2개 써도 상관없음.
+  const onClick = () => {
+    alert(message);
+    setMessage('');
+  }; // 임의 메서드로 return 밖에 선언함으로 가독성 확보(성능은 비슷)
 
-- 리액트에서 데이터가 변하여 실제 DOM을 업데이트 하는 과정
+const onChage = (e) =>{
+    const nextForm = {
+        ...form,        // 불변성 유지 위해
+        [e.target.name] : e.target.value
+    }
+    setForm(nextForm)
+} // 두개의 input을 하나의 onChange로 관리
 
-  - 데이터를 업데이트하면 전체 UI를 Virtual DOM에 리렌더링한다.
-  - 이전 Vitrual DOM에 있던 내용과 현재 내용을 비교한다.
-  - 바뀐 부분만 실제 DOM에 적용한다.
+  return (
+    <div>
+      <h1>이벤트 연습</h1>
+      <input
+        type="text"
+        name="message"
+        value={message}
+        placeholder="아무거나 입력해보세요."
+        onChange={(e) => {
+          setMessage(e.target.value);
+        }}
+      />
 
-![jdoodle](https://thebook.io/img/080203/041.jpg){: #magnific title=""}
+      <input
+          type="text"
+          name="userMessage"
+          onChange = {onChange}
+      />
+      <input
+          type="text"
+          name="username"
+          onChange = {onChange}
+      />
+
+      <button onClick={onClick}> 확인 </button>
+    </div>
+  );
+};
+```
