@@ -10,7 +10,7 @@ tags:
   - [React, JS, Java Script, Study]
 ---  
 
-##  이벤트 핸들링
+## 😉 이벤트 핸들링 ##
 - 이벤트 : 사용자가 웹 브라우저에서 DOM 요소들과 상호 작용 하는 것
   - 마우스 커서 올리기, 클릭하기, Form 요소에서 값 바뀌면 onChange 이벤트..
 
@@ -27,7 +27,7 @@ tags:
   - 참고(https://reactjs.org/docs/events.html)
 
 
-## 함수형 컴포넌트에서 이벤트 예제
+## 😉 함수형 컴포넌트에서 이벤트 예제 ##
 
 - e 객체 : SyntheticEvent. 웹 브라우저의 네이티브 이벤트랄 감싸는 개체. 이벤트가 끝나면 초기화
 
