@@ -19,9 +19,9 @@ tags:
 #개발자 #프런트엔드 #모던리액트 #리액트 #모던리액트deepdive #위키북스 #전자책
 
 ​
-![Deep Dive](https://postfiles.pstatic.net/MjAyNDAyMDVfMjE4/MDAxNzA3MTI5ODMxMjAz.QRMLOBitFYF8WYmqPyXOjfNp9oC4Dp4FMNrc8GWMAHwg.Tz73l5Xop8TGqNrmmlZU3F_KlxsX4ODBgl1Lnlvx-dQg.JPEG.wildboy531/20240205_192232.jpg?type=w966){: #magnific title=""}
+![Deep Dive2](https://postfiles.pstatic.net/MjAyNDAyMDVfMjE4/MDAxNzA3MTI5ODMxMjAz.QRMLOBitFYF8WYmqPyXOjfNp9oC4Dp4FMNrc8GWMAHwg.Tz73l5Xop8TGqNrmmlZU3F_KlxsX4ODBgl1Lnlvx-dQg.JPEG.wildboy531/20240205_192232.jpg?type=w966){: #magnific title=""}
 
-![Deep Dive](https://postfiles.pstatic.net/MjAyNDAyMDVfMjcg/MDAxNzA3MTI5ODMxMzQw.2tS6E3oXwWeevW1Pr5Xcr2JA9Gjz2OJass2XzZu4tykg.0BsIHlDkoxSr5nhQN8zVj3xKy1casA2kLuagO7Cv-5sg.JPEG.wildboy531/20240205_192245.jpg?type=w966){: #magnific title=""}
+![Deep Dive3](https://postfiles.pstatic.net/MjAyNDAyMDVfMjcg/MDAxNzA3MTI5ODMxMzQw.2tS6E3oXwWeevW1Pr5Xcr2JA9Gjz2OJass2XzZu4tykg.0BsIHlDkoxSr5nhQN8zVj3xKy1casA2kLuagO7Cv-5sg.JPEG.wildboy531/20240205_192245.jpg?type=w966){: #magnific title=""}
 
 ​리액트를 들어가기 앞서 자바스크립트도 다루어주고 이렇게 예시도 상세히 되어 있어 유익합니다 ㅎㅎ
 
