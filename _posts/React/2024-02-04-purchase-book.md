@@ -25,5 +25,4 @@ tags:
 
 ​리액트를 들어가기 앞서 자바스크립트도 다루어주고 이렇게 예시도 상세히 되어 있어 유익합니다 ㅎㅎ
 
-​[구매 링크]
-https://www.yes24.com/Product/Goods/124434630
+​[구매 링크 (yes24)](https://www.yes24.com/Product/Goods/124434630)
